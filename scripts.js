@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let btnSing = document.getElementById('btn');
 
-    
-
     btnSing.addEventListener('click', function () {
         let body = document.body;
         let heather = document.createElement('div');
@@ -47,8 +45,6 @@ document.addEventListener('DOMContentLoaded', function () {
         davis.appendChild(h3D);
         body.appendChild(davis);
 
-        
-
         let friends = ['Heather', 'Kenneth', 'Caroline', 'Reid', 'Davis'];
 
         let refrain1 = ' lines of code in the file, ';
@@ -61,8 +57,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let lyrics = [refrain1, refrain2, refrain3, refrain4, refrain5, refrain6, refrain7];
         let people = document.querySelectorAll('div.friend');
-
-      
 
         function func2(friends, people) {
             for (let i = 10; i > 0; i--) {
@@ -86,19 +80,12 @@ document.addEventListener('DOMContentLoaded', function () {
                 }
             }
         }
-
-       
-
         func2(friends[0], people[0]);
         func2(friends[1], people[1]);
         func2(friends[2], people[2]);
         func2(friends[3], people[3]);
         func2(friends[4], people[4]);
-
-       
     })
-
-    
 })
 
 
