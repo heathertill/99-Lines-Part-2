@@ -1,0 +1,42 @@
+body {
+    background-color:rgb(219, 241, 241);
+}
+
+h1 {
+    color: rgb(108, 108, 110);
+    text-align: center;
+}
+
+.friend {
+    background-color: rgb(219, 241, 241);
+    border: 20px solid white;
+    color: rgb(108, 108, 110);
+}
+
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    border-style: solid dotted;
+    border-color: rgb(173, 173, 173);
+    
+    padding-right: .6em;
+    padding-left: .6em;
+    margin-bottom: .5em;
+    margin-right: .6em;
+    margin-left: .6em;
+    background-color: azure
+}
+
+button {
+    background-color:  rgb(157, 219, 219);
+    border-style: dotted;
+    border-color: rgb(173, 173, 173);
+    border-width: .2em;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    
+}
