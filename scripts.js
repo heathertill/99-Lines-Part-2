@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let people = document.querySelectorAll('div.friend');
 
         function func2(friends, people) {
-            for (let i = 10; i > 0; i--) {
+            for (let i = 99; i > 0; i--) {
                 if (i > 2) {
                     let song = document.createElement('p');
                     let text = document.createTextNode(i + lyrics[0] + i + lyrics[1] + friends + lyrics[2] + (i - 1) + lyrics[3]);
